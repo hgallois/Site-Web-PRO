@@ -45,3 +45,31 @@ a {
     background: transparent;
 }
 
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.footer-container {
+    display: block;
+    width: 100%;
+}
+
+.footer-img {
+    display: flex;
+    width: 100%;
+}
+
+.i {
+    padding: auto;
+}
+
