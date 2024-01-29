@@ -4,7 +4,8 @@
     flex-wrap: wrap;
     padding: 5px;
     background-color: rgb(142, 230, 200);
-    gap: 1%;
+    gap: 5px;
+    justify-content:space-evenly;
 }
 
 .product{
@@ -15,7 +16,6 @@
     background-color: rgba(0, 0, 0, .2);
     border-radius: 10px;
     padding: 10px;
-    gap: 2px;
 }
 
 .title-product{
