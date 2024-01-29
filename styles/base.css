@@ -47,8 +47,12 @@ a {
 
 .footer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     background-color: lightgray;
+    justify-content: center;
+    gap: 10px;
 }
 
 .title {
@@ -61,15 +65,12 @@ a {
 
 .footer-container {
     display: block;
-    width: 100%;
 }
 
 .footer-img {
     display: flex;
     width: 100%;
-}
-
-.i {
-    padding: auto;
+    justify-content: center;
+    gap: 10px;
 }
 
