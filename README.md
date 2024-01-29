@@ -23,4 +23,4 @@ Notre site devra donc comporter les fonctionnalités suivantes:
 - Système de contact & FAQ
 - Panel admin
 
-@à Le tout avec un objectif quantitatif de 10k visiteurs par mois dansles premiers mois de lancement.
+Le tout avec un objectif quantitatif de 10k visiteurs par mois dansles premiers mois de lancement.
