@@ -1,11 +1,11 @@
 
 let current_on = 0;
 let direction = 1;
-const CARROUSEL_SIZE = 4;
 let id_interval;
-let time_remaining = 0;
+const CARROUSEL_SIZE = 4;
 
-function forced_set(index, time) {  
+
+function forced_set(index) {  
     if(current_on > index){
         direction = -1;
     } else{
@@ -13,16 +13,7 @@ function forced_set(index, time) {
     }
     clearInterval(id_interval);
     set_Carrousel(index);
-    time_remaining = time;
-    id_interval = setInterval(restart, 100);
-}
-
-function restart(){
-    time_remaining -= 1;
-    if(time_remaining <= 0){
-        clearInterval(id_interval);
-        id_interval = setInterval(next_Carrousel, 3000);
-    }
+    id_interval = setInterval(next_Carrousel, 3000);
 }
 
 function set_Carrousel(index){
@@ -44,6 +35,7 @@ function set_Carrousel(index){
             $(id_btn).addClass("carrousel-btn-off");
         }
     }
+    current_on = index;
 }
 
 function next_Carrousel(){
@@ -52,8 +44,7 @@ function next_Carrousel(){
     } else if(current_on == 0){
         direction = 1;
     }
-    current_on = (current_on + direction);
-    set_Carrousel(current_on);
+    set_Carrousel(current_on + direction);
 }
 
 set_Carrousel(0);
