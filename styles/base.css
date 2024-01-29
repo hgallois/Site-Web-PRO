@@ -10,7 +10,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -20,6 +20,7 @@ body, html {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #fff;
 }
 
 .container {
@@ -44,6 +45,68 @@ a {
     color: #f39c12;
     background: transparent;
 }
+
+header {
+    position: relative;
+    padding: 0 0.7rem 1rem 0.7rem;
+    top: 0px;
+    background: url(../Assets/Clavier2.webp) no-repeat center center/cover;
+    background-color: black;
+    color: #F5EDED;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_bot {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    margin: 0;
+    padding: 0;
+    font-family: 'Penguin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar_link {
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+.test {
+    position: relative;
+    height: 100vh;
+    background-color: aqua;
+}
+
 
 .footer {
     display: flex;
