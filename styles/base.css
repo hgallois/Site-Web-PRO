@@ -45,3 +45,36 @@ a {
     background: transparent;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
+.footer-container {
+    display: block;
+}
+
+.footer-img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+#footer-img {
+    width: 50%;
+}
