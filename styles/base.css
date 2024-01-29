@@ -49,10 +49,11 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
     background-color: lightgray;
-    justify-content: center;
+    justify-content: space-around;
     gap: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .title {
@@ -74,3 +75,6 @@ a {
     gap: 10px;
 }
 
+#footer-img {
+    width: 50%;
+}
