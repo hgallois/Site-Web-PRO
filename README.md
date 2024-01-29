@@ -22,4 +22,5 @@ Notre site devra donc comporter les fonctionnalités suivantes:
 - Listing produits, catégories, fiches produits, systèmes de filtres...
 - Système de contact & FAQ
 - Panel admin
-Le tout avec un objectif quantitatif de 10k visiteurs par mois dansles premiers mois de lancement.
+
+@à Le tout avec un objectif quantitatif de 10k visiteurs par mois dansles premiers mois de lancement.
