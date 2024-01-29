@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce</title>
-  
-    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   
     <!-- Favicon -->
@@ -17,7 +15,7 @@
     <link href="https://fonts.cdnfonts.com/css/penguin" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="/styles/base.css">
-    <link rel="stylesheet" href="/styles/homepage.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
     
@@ -50,17 +48,23 @@
             </div>
         </div>
     </header> 
+  
+    <div class="test"></div>
 
-    <div>
-        <div class="carousel-images">
-            <img class="image-Carousel" id="Clavier-1" src="/Assets/Clavier-Carousel-1.jpg" alt="Clavier1" width="100%">
-            <img class="image-Carousel" id="Clavier-2" src="/Assets/Clavier-Carousel-2.jpeg" alt="Clavier2" width="100%">
-            <img class="image-Carousel" id="Clavier-3" src="/Assets/Clavier-Carousel-3.jpeg" alt="Clavier3" width="100%">
-            <img class="image-Carousel" id="Clavier-4" src="/Assets/Clavier-Carousel-4.webp" alt="Clavier4" width="100%">
+    <div class="carrousel">
+        <div class="image-carrousel-on image-carrousel" id="Clavier1"></div>
+        <div class="image-carrousel-off image-carrousel" id="Clavier2"></div>
+        <div class="image-carrousel-off image-carrousel" id="Clavier3"></div>
+        <div class="image-carrousel-off image-carrousel" id="Clavier4"></div>
+        <div class="carrousel-btn-div">
+            <input type="button" class="carrousel-btn-off carrousel-btn" id="btn-1" onclick="forced_set(0)">
+            <input type="button" class="carrousel-btn-off carrousel-btn" id="btn-2" onclick="forced_set(1)">
+            <input type="button" class="carrousel-btn-off carrousel-btn" id="btn-3" onclick="forced_set(2)">
+            <input type="button" class="carrousel-btn-off carrousel-btn" id="btn-4" onclick="forced_set(3)">
         </div>
     </div>
 
-    <div class="test"></div>
-
+    
+    <script src="./script/index.js"></script>
 </body>
 </html>

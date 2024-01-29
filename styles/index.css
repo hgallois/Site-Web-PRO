@@ -1,0 +1,85 @@
+.carrousel{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    width: 100%;
+    padding: 10px;
+}
+
+.image-carrousel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.image-carrousel-on{
+    width: 100%;
+    animation: SlideIn 1s;
+}
+
+.image-carrousel-off{
+    width: 0%;
+    animation: SlideOut 1s;
+}
+
+@keyframes SlideIn {
+    0% {
+        width: 0%;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes SlideOut {
+    0% {
+        width: 100%;
+    }
+    50%{
+        width: 50%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+#Clavier1{
+    background-image: url("../Assets/Clavier1.webp");
+}
+
+#Clavier2{
+    background-image: url("../Assets/Clavier2.webp");
+}
+#Clavier3{
+    background-image: url("../Assets/Clavier3.jpg");
+}
+#Clavier4{
+    background-image: url("../Assets/Clavier4.jpg");
+}
+
+.carrousel-btn-div{
+    position: fixed;
+    padding: 3%;
+    width: 100%;
+    text-align: start;
+}
+
+.carrousel-btn{
+    width: 10%;
+    height: 1px;
+}
+
+
+.carrousel-btn-off{
+    border-color: rgba(0, 0, 0, 0.250);
+    background-color: rgba(255, 255, 255);
+}
+
+.carrousel-btn-on{
+    border-color: rgba(0, 0, 0, 0.250);
+    background-color: aqua;
+}
