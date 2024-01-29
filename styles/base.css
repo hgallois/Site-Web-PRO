@@ -10,7 +10,7 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -20,6 +20,7 @@ body, html {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #fff;
 }
 
 .container {
@@ -45,3 +46,25 @@ a {
     background: transparent;
 }
 
+header {
+    position: relative;
+    height: 141px;
+    top: 0px;
+    background: url(118089.png);
+    background-color: black;
+}
+
+.logo-name {
+    margin: 0;
+    font-family: 'Penguin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #F5EDED;
+}
+
+.test {
+    position: relative;
+    height: 100vh;
+    background-color: aqua;
+}
