@@ -1,0 +1,111 @@
+
+.container {
+    margin-top: 20px;
+}
+
+.btn {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 13px 18px;
+    background-color: #5684C1;
+    border-radius: 8px;
+    border: 2px solid #094FAC;
+    transition: all 0.3s ease-in-out;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    color: #5684C1;
+    background: transparent;
+}
+
+.step-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.centered-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.product-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.product-image img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.quantity input {
+    width: 40px;
+}
+
+.quantity button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.select {
+    background-color: #1455aa;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.quantity.editable input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: auto;
+    pointer-events: auto;
+    padding: 5px;
+}
+
+.quantity.editable input:focus {
+    outline: none;
+    border-color: #5684C1;
+}
+
+body {
+    background-color: #F5EDED;
+}
+
+
+.select:hover,
+.edit:hover,
+.delete:hover {
+    background-color: #5684C1;
+}
+
